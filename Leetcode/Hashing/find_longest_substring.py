@@ -1,3 +1,4 @@
+# a sliding window example that leverages a hash map.
 from collections import defaultdict
 
 def find_longest_substring(s, k):
