@@ -1,0 +1,8 @@
+# hashing
+# checking for existance
+# counting
+counting -> track the frequency of things
+hashmap map keys to integers
+anytime needs to count anything, think about using a hash map to do it
+
+sliding window -> limit the amount of certain element in the window
