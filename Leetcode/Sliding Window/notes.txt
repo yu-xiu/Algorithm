@@ -1,0 +1,4 @@
+# sliding window
+the idea of sliding window is to add elements by sliding to the right until the window violates the constraints
+once it does we slide the window from the left until it no longer violates the constraint.
+
