@@ -1,4 +1,4 @@
-class Solution {
+class zigzag {
     public String convert(String s, int numRows) {
         if (numRows == 1) {
             return s;
