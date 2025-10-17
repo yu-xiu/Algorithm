@@ -20,3 +20,14 @@ class Solution:
                 ans = min(ans, arr[i + 1] - arr[i] + 1)
         
         return ans if ans < float("inf") else -1
+    
+    def minimumCardPickup_2(self, cards: List[int]) -> int:
+        dic = defaultdict(int)
+        ans = float("inf")
+        for i in range(len(cards)):
+            if cards[i] in dic:
+                ans = min(ans, i - dic[cards[i]] + 1)
+            
+            dic[cards[i]] = i
+
+        return ans if ans < float("inf") else -1
